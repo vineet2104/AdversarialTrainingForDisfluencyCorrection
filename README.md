@@ -14,7 +14,7 @@ Abstract: Disfluencies commonly occur in conversational speech. Speech with disf
   c) Add path of ".dis" and ".labels" files create in step 2 b) and run python3 ./utils/PrepareDataset.py to create tsv files for both labeled and unlabeled data. 
 3) Run trainer.ipynb notebook to train the model with adversarial training. Appropriate comments and instructions have been mentioned in the notebook.
   
-For best training settings and data usage, refer to the paper here: <Link will be added soon>. We have added ./data/sample_data folder to show the format of training files expected for trainer.ipynb. Stuttering Dataset has been shared here: ./data/stuttering_dataset.csv
+For best training settings and data usage, refer to the paper here: <Link will be added soon>. We have added ./data/sample_data folder to show the format of training files expected for trainer.ipynb. Stuttering Dataset has been shared here: ./data/stuttering-dataset.csv
   
 ## Citation 
 ```
