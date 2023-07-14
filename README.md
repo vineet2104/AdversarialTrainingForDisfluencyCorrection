@@ -14,24 +14,22 @@ Abstract: Disfluencies commonly occur in conversational speech. Speech with disf
   c) Add path of ".dis" and ".labels" files create in step 2 b) and run python3 ./utils/PrepareDataset.py to create tsv files for both labeled and unlabeled data. 
 3) Run trainer.ipynb notebook to train the model with adversarial training. Appropriate comments and instructions have been mentioned in the notebook.
   
-For best training settings and data usage, refer to the paper here: <Link will be added soon>. We have added ./data/sample_data folder to show the format of training files expected for trainer.ipynb. Stuttering Dataset has been shared here: ./data/stuttering-dataset.csv
+For best training settings and data usage, refer to the paper here: <Link https://aclanthology.org/2023.findings-acl.514>. We have added ./data/sample_data folder to show the format of training files expected for trainer.ipynb. Stuttering Dataset has been shared here: ./data/stuttering-dataset.csv
   
 ## Citation 
 ```
-@misc{<Will be added soon>,
-  doi = {<Will be added soon>},
-  
-  url = {<Will be added soon>},
-  
-  author = {Vineet Bhat, Preethi Jyothi, Pushpak Bhattacharyya},
-  
-  title = {Adversarial training for low-resource disfluency correction},
-  
-  publisher = {ACL Findings},
-  
-  year = {2023},
-  
-  copyright = {MIT}
+@inproceedings{bhat-etal-2023-adversarial,
+    title = "Adversarial Training for Low-Resource Disfluency Correction",
+    author = "Bhat, Vineet  and
+      Jyothi, Preethi  and
+      Bhattacharyya, Pushpak",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.514",
+    pages = "8112--8122",
 }
 
 
